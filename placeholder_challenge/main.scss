@@ -1,0 +1,30 @@
+/*
+Your challenge is to review a code snippet and improve it. Use the hint tab to access the boilerplate files. Open the file called challenge3.scss.
+
+Is something wrong with this code? How can we improve it? Is something repetitive? Maybe a straightforward placeholder can help us out...
+*/
+
+%borderStyle {
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.container {
+    @extend %borderStyle;
+    width: 1280px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.wrapper {
+    @extend %borderStyle;
+    float: left;
+    position: relative;
+}
+
+.item {
+    @extend %borderStyle;
+    font-size: 14px;
+    font-family: "Sans Pro", sans-serif;
+    font-weight: 700;
+}
